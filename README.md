@@ -67,8 +67,7 @@
 
 ## 🌐 Live Demo
 
-- Frontend: [vercel.app](https://your-vercel-link.vercel.app)
-- Backend: [railway.app](https://your-railway-link.up.railway.app)
+-use can visit the site:https://file-shrink-data-compression-decomp-seven.vercel.app/
 
 ---
 

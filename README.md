@@ -8,7 +8,7 @@
 
 - **Frontend:** React, Bootstrap, Chart.js
 - **Backend:** Node.js, Express.js, Multer
-- **Deployment:** Vercel (Frontend) & Railway (Backend)
+- **Deployment:** Vercel (Frontend) & Render (Backend)
 
 ---
 

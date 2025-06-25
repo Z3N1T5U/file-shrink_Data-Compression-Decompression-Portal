@@ -35,10 +35,10 @@ function App() {
 
     try {
       let url = '';
-      if (algo === 'huffman' && action === 'compress') url = 'http://localhost:5000/huffman-compress';
-      if (algo === 'huffman' && action === 'decompress') url = 'http://localhost:5000/huffman-decompress';
-      if (algo === 'rle' && action === 'compress') url = 'http://localhost:5000/rle-compress';
-      if (algo === 'rle' && action === 'decompress') url = 'http://localhost:5000/rle-decompress';
+      if (algo === 'huffman' && action === 'compress') url = 'https://file-shrink-data-compression.onrender.com/huffman-compress';
+      if (algo === 'huffman' && action === 'decompress') url = 'https://file-shrink-data-compression.onrender.com/huffman-decompress';
+      if (algo === 'rle' && action === 'compress') url = 'https://file-shrink-data-compression.onrender.com/rle-compress';
+      if (algo === 'rle' && action === 'decompress') url = 'https://file-shrink-data-compression.onrender.com/rle-decompress';
 
       //goes to backend
       const response = await axios.post(url, formData, {

@@ -8,6 +8,13 @@ const { compressHuffman, decompressHuffman } = require('./algorithms/huffman');
 
 const app = express();
 
+['uploads', 'outputs'].forEach(dir => {
+  if (!fs.existsSync(dir)) {
+    fs.mkdirSync(dir, { recursive: true });
+    console.log(`✅ Created missing folder: ${dir}`);
+  }
+});
+
 //accepts req from the frontend
 app.use(cors());
 
